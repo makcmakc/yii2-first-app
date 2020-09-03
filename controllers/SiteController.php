@@ -130,18 +130,18 @@ class SiteController extends Controller
 
     // MY ROUTES
     public function actionCollections() {
-        return $this->render('collections');
+      return $this->render('collections');
     }
 
     public function actionNew() {
-        return $this->render('new');
+      return $this->render('new');
     }
 
     public function actionTrending() {
-        return $this->render('trending');
+      return $this->render('trending');
     }
 
     public function actionPopular() {
-        return $this->render('popular');
+      return $this->render('popular');
     } 
 }

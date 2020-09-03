@@ -6,8 +6,8 @@
     font-weight: normal;
 }
 
-a {
-    text-decoration: none;
+.profile-link, a {
+  text-decoration: none;
 }
 
 body {
@@ -161,7 +161,10 @@ nav a:hover {
 }
 
 .image-section {
-    flex: 1.5;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: -50%;
     position: relative;
 }
 

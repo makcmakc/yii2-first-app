@@ -4,65 +4,65 @@ use yii\helpers\Html;
 $this->title = 'M.studio';
 ?>
 
-<div class="nav-wrapper">
+  <div class="nav-wrapper">
     <div class="logo">
-        <?= Html::a('M.studio',
-          ['site/index'],
-          ['class' => 'profile-link'])
-        ?>
+      <?= Html::a('M.studio',
+        ['site/index'],
+        ['class' => 'profile-link'])
+      ?>
     </div>
 
     <nav>
-        <?= Html::a('
-          <div class="letter">C</div>
-          <div class="letter">o</div>
-          <div class="letter">l</div>
-          <div class="letter">l</div>
-          <div class="letter">e</div>
-          <div class="letter">c</div>
-          <div class="letter">t</div>
-          <div class="letter">i</div>
-          <div class="letter">o</div>
-          <div class="letter">n</div>
-          <div class="letter">s</div>',
-          ['site/collections'],
-          ['class' => 'profile-link'])
-        ?>
+      <?= Html::a('
+        <div class="letter">C</div>
+        <div class="letter">o</div>
+        <div class="letter">l</div>
+        <div class="letter">l</div>
+        <div class="letter">e</div>
+        <div class="letter">c</div>
+        <div class="letter">t</div>
+        <div class="letter">i</div>
+        <div class="letter">o</div>
+        <div class="letter">n</div>
+        <div class="letter">s</div>',
+        ['site/collections'],
+        ['class' => 'profile-link'])
+      ?>
 
-        <?= Html::a('
-          <div class="letter">N</div>
-          <div class="letter">e</div>
-          <div class="letter">w</div>',
-          ['site/new'],
-          ['class' => 'profile-link'])
-        ?>
+      <?= Html::a('
+        <div class="letter">N</div>
+        <div class="letter">e</div>
+        <div class="letter">w</div>',
+        ['site/login'],
+        ['class' => 'profile-link'])
+      ?>
 
-        <?= Html::a('
-          <div class="letter">T</div>
-          <div class="letter">r</div>
-          <div class="letter">e</div>
-          <div class="letter">n</div>
-          <div class="letter">d</div>
-          <div class="letter">i</div>
-          <div class="letter">n</div>
-          <div class="letter">g</div>',
-          ['site/trending'],
-          ['class' => 'profile-link'])
-        ?>
+      <?= Html::a('
+        <div class="letter">T</div>
+        <div class="letter">r</div>
+        <div class="letter">e</div>
+        <div class="letter">n</div>
+        <div class="letter">d</div>
+        <div class="letter">i</div>
+        <div class="letter">n</div>
+        <div class="letter">g</div>',
+        ['site/logout'],
+        ['class' => 'profile-link'])
+      ?>
 
-        <?= Html::a('
-          <div class="letter">P</div>
-          <div class="letter">o</div>
-          <div class="letter">p</div>
-          <div class="letter">u</div>
-          <div class="letter">l</div>
-          <div class="letter">a</div>
-          <div class="letter">r</div>',
-          ['site/popular'],
-          ['class' => 'profile-link'])
-        ?>
+      <?= Html::a('
+        <div class="letter">P</div>
+        <div class="letter">o</div>
+        <div class="letter">p</div>
+        <div class="letter">u</div>
+        <div class="letter">l</div>
+        <div class="letter">a</div>
+        <div class="letter">r</div>',
+        ['site/popular'],
+        ['class' => 'profile-link'])
+      ?>
     </nav>
-</div>
+  </div>
 
 <div class="column-wrapper">
     <section class="text-section new-content">

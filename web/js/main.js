@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .add({
             targets: '.nav-wrapper',
             width: ['0px', '1200px'],
-            translateY: ['20px', '0px']
+            translateY: ['30px', '0px']
         })
         .add({
             targets: '.logo',

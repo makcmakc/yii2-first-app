@@ -1,0 +1,57 @@
+.main-content {
+  margin-top: 200px;
+}
+
+.back-to-home {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+
+.btn-yellow {
+ background-color: #FFC001;
+ color: #1D1D1D;
+}
+
+.btn-black {
+ background-color: #1D1D1D;
+ color: #FFF;
+}
+
+.btn-black:hover {
+  color: #fff;
+}
+
+.oauth {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #FFC001;
+  color: #1D1D1D;
+  margin-right: -15px;
+  display: flex;
+  flex-direction: column;
+
+  height: 280px;
+  width: 100px;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.oauth span {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 400;
+  transition: color 1s ease;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+

@@ -36,24 +36,6 @@ AppAsset::register($this);
 </head>
 <body>
 
-<?php
-    // NavBar::begin([
-    //     'options' => [
-    //         'class' => 'nav-wrapper',
-    //     ],
-    //     'brandLabel' => 'M.studio',
-    //     'brandUrl' => Yii::$app->homeUrl,
-    // ]);
-    // echo Nav::widget([
-    //     'options' => ['class' => 'nav'],
-    //     'items' => [
-    //         ['label' => 'Home', 'url' => ['/site/index']],
-    //         ['label' => 'About', 'url' => ['/site/about']],
-    //         ['label' => 'Contact', 'url' => ['/site/contact']],
-    //     ],
-    // ]);
-    // NavBar::end();
-?>
 <?php $this->beginBody() ?>
     <?= Breadcrumbs::widget([
         'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
